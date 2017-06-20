@@ -1,0 +1,81 @@
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: arial;
+			color: white;
+			font-size: 14px;
+			background-color: #77bb5e;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		.back{
+			margin: 30px auto 10px 30px;
+			border-radius: 15px;
+			padding: 5px 7px;
+			width: 50px;
+			text-align: center;
+			background-color: rgba(150,150,150,0.5);
+		}
+		.title{
+			text-align: center;
+			border-radius: 10px;
+			padding: 4px 13px;
+			width: 90px;
+			background-color: rgba(150,150,150,0.5);
+			margin: 8px auto;
+		}
+		.title.top{
+			margin-top: 30px;
+		}
+		.icon{
+			width: 30px;
+			height:30px;
+			padding: 5px;
+			border-radius: 100px;
+			background-color: rgba(90,90,90,0.5);
+			border: 3px solid rgba(255,255,255,0.3);
+			position: fixed;
+		}
+		.icon.menu{
+			right: 67px;
+			top: 12px;
+		}
+		.icon.search{
+			right: 12px;
+			top: 12px;
+		}
+		.produce{
+			width: 80px;
+			height: 80px;
+		}
+		.content{
+			background-color: #f1e9fe;
+			height: 100px;
+		}
+		.picture{
+			padding: 10px;
+			float: left;
+		}
+		.explain{
+			float: left;
+			height: 75px;
+		}
+		.text{
+			color: #000000;
+			margin-top: 10px;
+		}
+		.price{
+			color: #E02200;
+			margin-top: 45px;
+		}
+		.label{
+			float: right;
+			color: #E02200;
+			border: 1px solid #E02200;
+			border-radius: 5px;
+			padding: 2px 5px;
+			margin: 40px 10px 0 0;
+			font-size: 12px;
+		}

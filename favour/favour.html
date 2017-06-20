@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta charset="UTF-8">
+		<title>优惠券</title>
+		<link rel="stylesheet" href="css/favour.css" />
+		<link href="css/component.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<div class="back">
+					<a href="javascript:history.back()">返回</a>
+				</div>
+				<div class="receive">
+					可领取
+				</div>
+			</header>
+			<section>
+				<div class="model-one">
+					<div class="share">
+						<a href="javascript:;"  class="md-trigger" data-modal="modal-1"><img src="img/share.png" />分享</a>
+					</div>
+					<div class="purchase">
+						<a class="purchase-num" href="javascript:void(0)">
+							购买
+						</a>
+					</div>
+				</div>
+				<div class="model-two">
+					<div class="share">
+						<a class="share-favor" href="#"><img src="img/share.png" />分享</a>
+					</div>
+					<div class="get">
+						领券
+					</div>
+				</div>
+			</section>
+			<!--购买层            	           -->
+			<div id="affirm-express" class="affirm">
+				<p class="title-way">购买兑换券</p>
+				<hr />
+				<div class="pay">
+					需支付：<span class="color">10</span>元
+				</div>
+				<div class="detail">
+					<div class="detail-top">
+						<img src="../index/img/ticket.png" />
+						<span class="title-name">牛肉酥兑换券</span>
+					</div>
+					<span class="color">10元/张</span>(<s>原价25元</s>)
+				</div>
+				<div class="num">
+					<div class="sub">-</div>
+					<div class="content-num">1张</div>
+					<div class="add">+</div>
+				</div>
+				<a href="JavaScript:void(0)" class="affirm-off" id="submit">立即支付</a>
+			</div>
+			<!--分享            	            -->
+			<div class="md-modal md-effect-1" id="modal-1">
+			    <div class="md-content">
+			      <h3>分享</h3>
+			      <hr />
+			      <div class="wechat-friends">
+			        <img src="img/wechat-friends.png" />
+			        <p>微信好友</p>
+			      </div>
+			      <div class="wechat-circles">
+			        <img src="img/wechat-circles.png" />
+			        <p>微信朋友圈</p>
+			      </div>
+			    </div>
+		  	</div>
+		  	<div class="md-overlay">取消</div>
+			<!--领券            	            -->
+			<div class="dialog">  
+				<div class="prompt-box"> 
+					<span>领取优惠券</span> 
+				</div> 
+				<div class="bottom"> 
+					<input type="button" id="ok" value="确定" class="button"> 
+					<input type="button" id="noOk" value="取消" class="button">
+				</div> 
+			</div>
+		</div>	
+	</body>
+	
+	<script type="text/javascript" src="../js/jquery-1.11.1.js" ></script>
+	<script type="text/javascript" src="../layer/layer.js"></script>
+	<script type="text/javascript" src="js/favour.js" ></script>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="js/modalEffects.js"></script>
+</html>

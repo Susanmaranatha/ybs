@@ -1,0 +1,184 @@
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: arial;
+			color: white;
+			font-size: 14px;
+			background-color: #77bb5e;
+		}
+		p,ul,li{
+			display: inline;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		.back{
+			margin: 30px auto 10px 30px;
+			border-radius: 15px;
+			padding: 5px 7px;
+			width: 35px;
+			text-align: center;
+			background-color: rgba(150,150,150,0.5);
+		}
+		.receive{
+			margin: 10px auto;
+			text-align: center;
+			border-radius: 10px;
+			padding: 5px 12px;
+			width: 50px;
+			background-color: rgba(150,150,150,0.5);
+		}
+		section div{
+			width: 350px;
+			height: 230px;
+			margin:30px auto 10px;
+		}
+		.model-one{
+			background-image: url(../img/model-one.png);
+			background-size: 350px 230px;
+		}
+		img{
+			width: 20px;
+			height: 20px;
+		}
+		.share{
+			height: 50px;
+			margin: -15px;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			padding-right: 10px;
+		}
+		.purchase{
+			width: 50px;
+			height: 25px;
+			line-height: 25px;
+			text-align: center;
+			border-radius: 7px;
+			background-color: #e02200;
+			margin: 160px 10px 10px auto;
+		}
+		.get{
+			width: 50px;
+			height: 25px;
+			line-height: 25px;
+			text-align: center;
+			border-radius: 7px;
+			background-color: #e02200;
+			margin: 160px 10px 10px auto;
+		}
+		.purchase-num{
+			width: 50px;
+			height: 25px;
+			display: inline-block;
+		}
+		.model-two{
+			background-image: url(../img/model-two.png);
+			background-size: 350px 230px;
+		}
+		#affirm-express{
+			 	background-color: #fff;
+			 	color: #000000;
+			 	font-size: 14px;
+			 	display: none;
+			}
+		#affirm-express .affirm-way{
+				width: 100%;
+			}
+			#affirm-express .title-way{
+				display: inline-block;
+				padding:0  20px;
+				font-size: 20px;
+				font-weight: 800;
+				color: #000000;
+			}
+			#affirm-express .pay{
+				text-align: center;
+				margin: 10px 0;
+			}
+			#affirm-express .color{
+				color: #FC0202;
+				padding: 5px;
+				font-size: 16px;
+				font-weight: 600;
+			}
+			#affirm-express .detail{
+				text-align: center;
+				margin: 10px 0;
+			}
+			#affirm-express .detail .title-name{
+				font-size: 18px;
+				font-weight: 600;
+			}
+			#affirm-express .num{
+				border: 1px solid #101010;
+				border-radius: 7px;
+				display: flex;
+				flex-wrap: nowrap;
+				width: 90px;
+				justify-content: center;
+				align-items: center;
+				margin: 10px auto;
+			}
+			#affirm-express .sub{
+				border-right: 1px solid #101010;
+				color:#FC0202;
+				font-weight: 800;
+				font-size: 20px;
+				padding-right: 10px;
+			}
+			#affirm-express .content-num{
+				border-right: 1px solid #101010;
+				padding: 5px;
+			}
+			#affirm-express .add{
+				color:#FC0202;
+				font-weight: 800;
+				font-size: 20px;
+				margin-left: 10px;
+			}
+			#affirm-express .affirm-off{
+				display: flex;
+				justify-content:center;
+  				align-items:center;
+  				height: 45px;
+  				width: 100%;
+  				position: fixed;
+  				bottom: 0;
+  				border-top:1px solid #EE2D13 ;
+  				color: #FC0202;
+			}
+			.dialog{ 
+				width: 360px; 
+				border: 1px solid #d8d8d8; 
+				position: absolute; 
+				display: none; 
+				z-index: 101;//保证该层在最上面显示 
+				color: #080808;
+				} 
+				
+				.dialog .prompt-box{ 
+				color: #080808;
+				background: #fff; 
+				padding: 20px; 
+				height: 30px; 
+				} 
+				
+				.dialog .prompt-box span{ 
+				float: left; 
+				padding: 10px; 
+				
+				}
+				
+				.dialog .bottom{ 
+				background-color: #FFFFFF;
+				text-align: right; 
+				padding:0 30px 10px 0;
+				} 
+				.dialog .button{
+					padding: 7px;
+					color: #EE6F5E;
+					font-size: 14px;
+					background-color: #FFFFFF;
+				}
